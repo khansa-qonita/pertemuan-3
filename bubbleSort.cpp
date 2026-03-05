@@ -47,7 +47,7 @@ void bubbleSortArray(){
         }
         cout << endl;
     
-    } while (pass <= n - 1)
+    } while (pass <= n - 1);
 }
 
 void display() {
@@ -67,5 +67,16 @@ void display() {
     cout << "jumlah pass = " << n - 1 << endl;
     cout << endl;
     cout << endl;
+}
+
+int main() {
+
+    input();
+
+    bubbleSortArray();
+    display();
+
+    system("pause");
+    return 0;
 }
     
